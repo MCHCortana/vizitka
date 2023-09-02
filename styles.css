@@ -10,12 +10,24 @@ h1 {
   color: rgb(203, 203, 246);
 }
 
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 0 7%;
+  margin: 5em;
+}
+
 div {
+  text-align: center;
   background-color: rgb(243, 101, 122);
   max-width: 30%;
   font-size: 1.2em;
   padding: 1.5em;
   border-radius: 10px;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 section {
